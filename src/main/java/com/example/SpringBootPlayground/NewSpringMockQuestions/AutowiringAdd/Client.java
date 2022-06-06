@@ -5,8 +5,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 
 public class Client{
     public static void main(String[] args){
-        //Test: this is an uncommitted change
-        //this is another commit
+        //Test: this is a new change
         ApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
         EmployeeService emp = context.getBean(EmployeeService.class);
         emp.display();

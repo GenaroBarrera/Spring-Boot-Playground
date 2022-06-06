@@ -7,6 +7,7 @@ public class Client{
     public static void main(String[] args){
         //Test: this is a new change
         //Test: this is a second change(test github desktop)
+        //Test: Can I still commit and push after moving the project to my documents?
         ApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
         EmployeeService emp = context.getBean(EmployeeService.class);
         emp.display();
